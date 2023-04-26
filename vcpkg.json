@@ -1,0 +1,29 @@
+{
+  "name": "example",
+  "version-string": "latest",
+  "dependencies": [
+    "fmt",
+    "spdlog",
+    "mqtt-cpp",
+    "paho-mqttpp3"
+  ],
+  "builtin-baseline": "5787cfa699a75805ef41938ec66bc7492714d290",
+  "overrides": [
+    {
+      "name": "fmt",
+      "version": "9.1.0#1"
+    },
+    {
+      "name": "spdlog",
+      "version": "1.11.0"
+    },
+    {
+      "name": "mqtt-cpp",
+      "version": "13.1.0"
+    },
+    {
+      "name": "paho-mqttpp3",
+      "version": "1.2.0#1"
+    }
+  ]
+}
